@@ -24,6 +24,10 @@
   [Hiroki Nagasawa](https://github.com/pixyzehn)
   [#2669](https://github.com/realm/SwiftLint/pull/2669)
 
+* `contains_over_first_not_nil` rule now also checks for `firstIndex(where:)`.  
+  [Marcelo Fabri](https://github.com/marcelofabri)
+  [#2678](https://github.com/realm/SwiftLint/issues/2678)
+
 #### Bug Fixes
 
 * `colon` rule now catches violations when declaring generic types with
